@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Different types of inputs</h1>
+    <h2>Checkboxes</h2>
+    <form action="/tacos">
+      <p>enter the languages you know</p>
+      <div>
+        <input type="checkbox" id="i1" value="Hindi" name="Hindi" />
+        <label for="i1">Hindi</label>
+      </div>
+      <div>
+        <input type="checkbox" id="i2" value="Sindhi" name="Sindhi" />
+        <label for="i2">Sindhi</label>
+      </div>
+      <div>
+        <input type="checkbox" id="i3" value="Marathi" name="Marathi" />
+        <label for="i3">Marathi</label>
+      </div>
+      <div>
+        <input type="checkbox" id="i4" value="Gujju" name="Gujju" />
+        <label for="i4">Gujarati</label>
+      </div>
+      <div>
+        <input type="checkbox" id="i5" value="spanish" name="spanish" />
+        <label for="i5">Spanish</label>
+      </div>
+      <div>
+        <input type="checkbox" id="i6" value="English" name="English" />
+        <label for="i6">English</label>
+      </div>
+
+      <h2>Radio Button</h2>
+
+      <div>
+        <input type="radio" id="f1" name="practise" value="yes" />
+        <label for="f1">yes</label>
+      </div>
+      <div>
+        <input type="radio" id="f1" name="practise" value="no" />
+        <label for="f1">No</label>
+      </div>
+
+      <h3>Radio Button for shirt sizes</h3>
+
+      <div>
+        <input type="radio" name="size" id="g1" value="S" />
+        <label for="g1">Small</label>
+      </div>
+      <div>
+        <input type="radio" name="size" id="g2" value="M" />
+        <label for="g2">Medium</label>
+      </div>
+      <div>
+        <input type="radio" name="size" id="g3" value="L" />
+        <label for="g3">Large</label>
+      </div>
+      <div>
+        <input type="radio" name="size" id="g4" value="XL" />
+        <label for="g4">ExtraLarge</label>
+      </div>
+      <h2>Select Input Typeee</h2>
+      <label for="selecting"> Select the type of dresses you want </label>
+      <select name="typeofdress" id="selecting">
+        <option>pls select one dresses</option>
+        <option value="dress">Dress</option>
+        <option value="jeans">jeans</option>
+        <option value="tops">tops</option>
+      </select>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <!--Everytime input tag has the following attributes-->
+    <!--id,name,value,type,select,option-->
+    <!--id id for the identification of label and input-->
+    <!--name is the attribute jis category ke andar jaake aapki value store hogi in the database-->
+    <!--value is used for the value which should be stored in the NAME category if you are using input type other than normal texts etc..-->
+
+    <!-- SELECT element/tag is used to create a dropdown kind of a think in which u
+    select from the given options. same as input the select element has id
+    attibute and name attribute. OPTION comes under the select element so it
+    contains the value attribute. -->
+  </body>
+</html>
