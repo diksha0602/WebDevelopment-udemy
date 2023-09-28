@@ -73,6 +73,36 @@
         <option value="tops">tops</option>
       </select>
       <br />
+      <h2>Range Input Type</h2>
+      <div>
+        <label for="cheese"> Amount of Cheese: </label>
+        <input type="range" name="amt_cheese" id="cheese" min="0" max="10" />
+      </div>
+      <div>
+        <label for="butter">Amount of Butter:</label>
+        <input
+          type="range"
+          name="amt_butter"
+          id="butter"
+          min="1"
+          max="8"
+          step="2"
+          value="7"
+        />
+      </div>
+      <br />
+      <h2>Text Area INPUT TYPE</h2>
+      <label for="area">Tell us your story:</label>
+      <br />
+      <textarea
+        id="area"
+        name="story"
+        rows="9"
+        cols="35"
+        placeholder="Start writing from here"
+      ></textarea
+      ><br />
+
       <button type="submit">Submit</button>
     </form>
     <!--Everytime input tag has the following attributes-->
@@ -87,3 +117,4 @@
     contains the value attribute. -->
   </body>
 </html>
+<!-- //http://127.0.0.1:5500/tacos?typeofdress=pls+select+one+dresses&amt_cheese=7&amt_butter=7 -->
