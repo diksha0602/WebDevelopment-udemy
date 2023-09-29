@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Validations Demo</h2>
+    <p>
+      This is k/a the browser side VALIDATION.(These are done using javascript)
+    </p>
+    <p>
+      In this topic we will learn about the validations.which means that if any
+      field is required or something like when you type an email you might get
+      by the browser that enter a valid email. While entering password you might
+      get to enter a strong password. or Any of the input is mandatory/required.
+    </p>
+    <p>
+      Earlier there were server side validations popular. When u entered
+      everything and presses the submit button, then the server would check for
+      validations and would send you the errors if any.
+    </p>
+    <form action="/random">
+      <div>
+        <label for="name">Enter your First Name</label>
+        <input
+          type="text"
+          name="fname"
+          id="name"
+          placeholder="First Name"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Enter yor password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+          minlength="6"
+          maxlength="20"
+          placeholder="Password"
+        />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="emailadd" id="email" />
+      </div>
+      <div>
+        <label for="url">url</label>
+        <input type="url" name="url" id="url" />
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
