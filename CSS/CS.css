@@ -1,0 +1,18 @@
+h1 {
+  background-color: antiquewhite;
+}
+h2 {
+  background-color: brown;
+}
+h3 {
+  color: rgb(252, 186, 3);
+}
+h4 {
+  color: rgb(3, 252, 244);
+}
+h5 {
+  color: rgb(92, 150, 114);
+}
+.look {
+  background-color: #5fcffc;
+}
