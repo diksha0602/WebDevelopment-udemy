@@ -1,0 +1,53 @@
+/* THIS IS A NORMAL ELEMENT SELECTOR */
+body {
+  background-color: #f1faee;
+}
+h1,
+h2 {
+  color: #1d3557;
+}
+button {
+  font-size: 30px;
+  background-color: #a8dadc;
+}
+/* THIS IS AN ID SELECTOR */
+#signup {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+span {
+  color: #457b9d;
+}
+/* THIS IS A CLASS SELECTOR */
+.tag {
+  background-color: #e63946;
+  color: #f1faee;
+  font-size: 30px;
+}
+
+/* DESECENDANT SELECTORS */
+li a {
+  color: red;
+}
+
+.post a {
+  color: #457b9d;
+}
+footer a {
+  color: #e63946;
+}
+
+/* adjacent descendant */
+h2 + button {
+  font-size: 50px;
+}
+/* the buttons just after an h2 are modified */
+
+/* direct descendant */
+/* one level in an elment */
+footer > a {
+  color: #457b9d;
+}
+/* when footer > a is commented out the link is red.
+But when the direct descendant cammand is written its another colour  */

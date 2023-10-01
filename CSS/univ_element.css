@@ -1,0 +1,14 @@
+/* Universal Selectors */
+* {
+  color: magenta;
+  background-color: cyan;
+}
+/* element selectors */
+button {
+  font-size: 30px;
+}
+/* MULTIPLE ELEMENTS TOGETHER */
+h1,
+h2 {
+  color: darkslateblue;
+}
